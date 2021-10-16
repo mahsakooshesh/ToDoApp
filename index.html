@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="todo-list">
+    <meta name="keywords" content="todo, todolist, todo-list" />
+    <title>TodoMVC</title>
+    <script src="java.js" defer></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <h1>todos</h1>
+    </header>
+    <main>
+        <section class="input" id="user-input">
+            <button id="select-all">&#x276E;</button>
+            <form action="index.html" method="post">
+                <label><input type="text" name="text" id="what-todo" placeholder="What needs to be done?"
+                        autofocus></label>
+            </form>
+        </section>
+
+        <section id="notebar">
+        </section>
+
+        <section id="actions">
+            <section id="actionbuttons">
+                <section id="countersection">
+                    <p id="counter"></p>
+                </section>
+                <button id="show-all">All</button>
+                <button id="active">Active</button>
+                <button id="completed">Completed</button>
+            </section>
+            <button id="clear-completed">Clear completed</button>
+        </section>
+    </main>
+    <footer>
+        <P>Double-click to edit a todo</P>
+        <p>Written by Reema & Mahsa</p>
+        <p>&copy;Copyright</p>
+    </footer>
+</body>
+
+</html>
