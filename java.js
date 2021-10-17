@@ -35,6 +35,7 @@ function CreateNotes(i, isCompleted) {
     let checkBox = document.createElement("input");
     checkBox.type = "checkbox";
     checkBox.id = "checkbox";
+    checkBox.name = "checkbox";
     label.appendChild(checkBox);
 
     //add the textpart
